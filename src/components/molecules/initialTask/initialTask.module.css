@@ -1,0 +1,30 @@
+.initialBox{
+    display: flex;
+    width: 15rem;
+    height:3rem;
+    margin-left: 0.63rem;
+   margin: 35px;
+    align-items: center;
+    border:2px solid rgb(255, 255, 255);
+    padding-left: 1.25rem;
+    background-color: transparent;
+    border-radius: 1rem;
+}
+
+.initialBox:hover{
+    
+    cursor: pointer;
+    transform: translateY(2px);
+}
+.taskText{
+    color:white
+
+}
+.bottomDivForList{
+    display: flex;
+    padding: 30px 0px;
+    height: 90%;
+   justify-content: start;
+   align-items: start;
+    border: 5px solid black;
+}
